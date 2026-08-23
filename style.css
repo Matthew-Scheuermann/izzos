@@ -2,3 +2,40 @@
   margin: 0;
   padding: 0;
 }
+
+/* Styling for header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+
+  background-color: limegreen;
+}
+
+.logo {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+nav > a {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* styling for main */
+
+main {
+}
